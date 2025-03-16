@@ -5,3 +5,73 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding-top: 50px;
+}
+
+header {
+  max-width: 1600px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  width: 300px;
+  aspect-ratio: 1 / 1.05;
+  display: inline-block;
+  color: #fff;
+  background: url(../images/corporate_man.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: saturate(150%);
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 350px;
+  box-shadow: 6px 9px 15px -8px rgba(0, 0, 0, 0.75);
+}
+
+.about {
+  width: 500px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 6px 9px 15px -8px rgba(0, 0, 0, 0.75);
+}
+
+.about h2 {
+  font-size: 32px;
+  padding: 16px 0;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #575655;
+}
+
+.links {
+  margin: 32px 0 10px;
+  text-align: right;
+}
+
+.links img {
+  width: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+}
