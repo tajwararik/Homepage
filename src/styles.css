@@ -43,6 +43,10 @@ header {
   margin: 0 auto;
 }
 
+.image {
+  display: none;
+}
+
 h1,
 h2 {
   font-family: "Playfair Display", sans-serif;
@@ -51,8 +55,6 @@ h2 {
 
 h1 {
   width: 300px;
-  aspect-ratio: 1 / 1.05;
-  display: inline-block;
   color: #fff;
   background: url(../images/corporate_man.jpg);
   background-repeat: no-repeat;
