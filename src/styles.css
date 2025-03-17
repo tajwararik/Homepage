@@ -54,7 +54,7 @@ h2 {
 }
 
 h1 {
-  width: 300px;
+  max-width: 300px;
   color: #fff;
   background: url(../images/corporate_man.jpg);
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .about {
-  width: 500px;
+  max-width: 500px;
   background-color: #fff;
   padding: 10px;
   box-shadow: 6px 9px 15px -8px rgba(0, 0, 0, 0.75);
@@ -96,7 +96,7 @@ h1 {
   cursor: pointer;
 }
 
-@media (width < 1000px) and (width >= 500px) {
+@media (width < 1000px) and (width >= 600px) {
   header {
     flex-direction: column;
   }
@@ -138,5 +138,34 @@ h1 {
 
   .about .links {
     display: none;
+  }
+}
+
+@media (width < 600px) {
+  .background::after {
+    height: 75%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+  }
+
+  .about {
+    box-shadow: none;
+  }
+
+  .about h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 5px 5px 16px;
+  }
+
+  .links {
+    text-align: center;
   }
 }
