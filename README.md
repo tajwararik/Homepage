@@ -1,8 +1,21 @@
-# Documentation
+# Battleship
 
- - Select from repository template while creating new repository on github
- - After cloning run `npm install` for installing all the dependencies
- - Add any necessary loader like images etc. if needed
- - import css file to `index.js`
- - Run `npm run build` to build
- - Run `npm run dev` to read the config and `ctrl` + `c` to kill it.
+This is a project from the The Odin Project.
+
+In this project I have created a responsive Homepage using HTML and CSS.
+
+## Overview
+
+- Responsive across all devices
+
+## Link
+
+- [Live url](https://tajwararik.github.io/Homepage/)
+
+## Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- npm
+- Webpack
