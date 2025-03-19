@@ -170,9 +170,65 @@ main h2 {
   background-color: #4ba2d2;
 }
 
+footer {
+  padding: 50px;
+  color: #fff;
+  background-color: #0891b2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+footer > div:first-of-type {
+  width: 350px;
+}
+
+footer svg {
+  fill: #fff;
+  vertical-align: middle;
+}
+
+footer p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding: 5px;
+}
+
+footer P:nth-child(-n + 3) {
+  padding: 20px 0;
+}
+
+footer .links {
+  text-align: left;
+}
+
+footer > div:last-of-type {
+  max-width: 400px;
+}
+
+footer > div:last-of-type img {
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (width < 1160px) {
   .projects {
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  }
+}
+
+@media (width < 882px) {
+  footer > div:first-of-type {
+    margin-bottom: 50px;
+  }
+
+  footer svg {
+    display: none;
+  }
+
+  footer .links {
+    text-align: center;
   }
 }
 
